@@ -14,7 +14,7 @@ Usage:
    * native HLS downloader ignores the IV from the m3u8 playlist and instead uses the provided `IV` (as hex) to decrypt the fragments
 
  * `--extractor-args "generic:variant_query"`
-   * append the query parameters from the master manifest URL to each its media playlist URLs. Can be used in conjunction with yt-dlp's built-in `fragment_query` generic extractor argument
+   * append the query parameters from the master manifest URL to each of its media playlist URLs. Can be used in conjunction with yt-dlp's built-in `fragment_query` generic extractor argument
 
 Multiple generic extractor args can passed using a semicolon as separator, e.g.:
 ```
