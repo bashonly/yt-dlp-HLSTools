@@ -2,6 +2,16 @@ A [yt-dlp](https://github.com/yt-dlp/yt-dlp) extractor [plugin](https://github.c
 
 ---
 
+## NOTICE
+
+This plugin has been made obsolete by [yt-dlp version 2023.03.21.231235](https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/tag/2023.03.21.231235), [commit c2e0fc4](https://github.com/yt-dlp/yt-dlp/commit/c2e0fc40a73dd85ab3920f977f579d475e66ef59)
+
+All of this plugin's features are now native to yt-dlp. As such, this plugin will no longer be updated, and the repository will be archived after the next stable release of yt-dlp.
+
+Run `yt-dlp --update-to nightly` or install the master branch to use the native yt-dlp HLS extractor-args. You may want to review [yt-dlp's `hls_key` syntax](https://github.com/yt-dlp/yt-dlp#generic), as it differs somewhat from this plugin.
+
+---
+
 Usage:
 
  * `--extractor-args "generic:hls_aes_uri=URI"`
