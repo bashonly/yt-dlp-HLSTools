@@ -6,7 +6,7 @@ A [yt-dlp](https://github.com/yt-dlp/yt-dlp) extractor [plugin](https://github.c
 
 This plugin has been made obsolete by [yt-dlp version 2023.03.21.231235](https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/tag/2023.03.21.231235), [commit c2e0fc4](https://github.com/yt-dlp/yt-dlp/commit/c2e0fc40a73dd85ab3920f977f579d475e66ef59)
 
-**All of this plugin's features are now native to yt-dlp. As such, this plugin will no longer be updated.**
+**All of this plugin's features are now native to yt-dlp. As such, this plugin will no longer be updated, and it has been disabled for yt-dlp versions where it is obsolete**
 
 Run `yt-dlp --update-to nightly` or install the master branch to use the native yt-dlp HLS extractor-args. You may want to review [yt-dlp's `hls_key` syntax](https://github.com/yt-dlp/yt-dlp#generic), as it differs somewhat from this plugin.
 
@@ -34,7 +34,7 @@ Multiple generic extractor args can passed using a semicolon as separator, e.g.:
 
 ## Installation
 
-Requires yt-dlp `2023.02.17` or above.
+Requires yt-dlp version [2023.02.17](https://github.com/yt-dlp/yt-dlp/releases/tag/2023.02.17) to [2023.03.21.225804](https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/tag/2023.03.21.225804).
 
 You can install this package with pip:
 ```

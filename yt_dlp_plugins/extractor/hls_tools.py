@@ -1,3 +1,9 @@
+from yt_dlp.update import version_tuple
+from yt_dlp.version import __version__
+
+if not ((2023, 2, 17) <= version_tuple(__version__) < (2023, 3, 21, 231235)):
+    raise ImportError('Only yt-dlp versions between 2023.02.17 and 2023.03.21.225804 can use this plugin')
+
 from yt_dlp.utils import parse_qs, traverse_obj, update_url_query
 from yt_dlp.extractor.generic import GenericIE
 
