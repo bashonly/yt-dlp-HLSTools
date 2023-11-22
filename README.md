@@ -8,7 +8,7 @@ This plugin has been made obsolete by [yt-dlp version 2023.03.21.231235](https:/
 
 **All of this plugin's features are now native to yt-dlp. As such, this plugin will no longer be updated, and it has been disabled for yt-dlp versions where it is obsolete**
 
-Run `yt-dlp --update-to nightly` or install the master branch to use the native yt-dlp HLS extractor-args. You may want to review [yt-dlp's `hls_key` syntax](https://github.com/yt-dlp/yt-dlp#generic), as it differs somewhat from this plugin.
+Update your yt-dlp to the latest version (`yt-dlp -U`) to use the native yt-dlp HLS extractor-args. You may want to review [yt-dlp's `hls_key` syntax](https://github.com/yt-dlp/yt-dlp#generic), as it differs somewhat from this plugin.
 
 ---
 
